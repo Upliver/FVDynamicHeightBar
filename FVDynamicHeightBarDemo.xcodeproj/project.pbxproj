@@ -12,6 +12,9 @@
 		AC16DD8C1E1FC24500A29998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16DD8B1E1FC24500A29998 /* Assets.xcassets */; };
 		AC16DD8F1E1FC24500A29998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16DD8D1E1FC24500A29998 /* LaunchScreen.storyboard */; };
 		AC16DD981E1FC2F200A29998 /* FVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DD971E1FC2F200A29998 /* FVAppDelegate.m */; };
+		AC796A0B1E2277AD0032183B /* FVDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC796A0A1E2277AD0032183B /* FVDemoViewController.m */; };
+		AC796A0E1E227AEE0032183B /* FVSafariCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC796A0D1E227AEE0032183B /* FVSafariCaseViewController.m */; };
+		AC796A111E227B380032183B /* FVSquareCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC796A101E227B380032183B /* FVSquareCaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,12 @@
 		AC16DD901E1FC24500A29998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC16DD961E1FC2F200A29998 /* FVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVAppDelegate.h; sourceTree = "<group>"; };
 		AC16DD971E1FC2F200A29998 /* FVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVAppDelegate.m; sourceTree = "<group>"; };
+		AC796A091E2277AD0032183B /* FVDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVDemoViewController.h; sourceTree = "<group>"; };
+		AC796A0A1E2277AD0032183B /* FVDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVDemoViewController.m; sourceTree = "<group>"; };
+		AC796A0C1E227AEE0032183B /* FVSafariCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSafariCaseViewController.h; sourceTree = "<group>"; };
+		AC796A0D1E227AEE0032183B /* FVSafariCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSafariCaseViewController.m; sourceTree = "<group>"; };
+		AC796A0F1E227B380032183B /* FVSquareCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSquareCaseViewController.h; sourceTree = "<group>"; };
+		AC796A101E227B380032183B /* FVSquareCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSquareCaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,12 @@
 		AC16DD7E1E1FC24500A29998 /* FVDynamicHeightBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC796A091E2277AD0032183B /* FVDemoViewController.h */,
+				AC796A0A1E2277AD0032183B /* FVDemoViewController.m */,
+				AC796A0C1E227AEE0032183B /* FVSafariCaseViewController.h */,
+				AC796A0D1E227AEE0032183B /* FVSafariCaseViewController.m */,
+				AC796A0F1E227B380032183B /* FVSquareCaseViewController.h */,
+				AC796A101E227B380032183B /* FVSquareCaseViewController.m */,
 				AC16DD991E1FC36A00A29998 /* FVDynamicHeightBar */,
 				AC16DD7F1E1FC24500A29998 /* Supporting Files */,
 			);
@@ -154,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC796A0E1E227AEE0032183B /* FVSafariCaseViewController.m in Sources */,
 				AC16DD981E1FC2F200A29998 /* FVAppDelegate.m in Sources */,
 				AC16DD811E1FC24500A29998 /* main.m in Sources */,
+				AC796A111E227B380032183B /* FVSquareCaseViewController.m in Sources */,
+				AC796A0B1E2277AD0032183B /* FVDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
